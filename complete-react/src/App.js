@@ -1,5 +1,5 @@
 import Products from './Components/Product';
-import './app.css'
+import './App.css'
 
 let products = [
     {
