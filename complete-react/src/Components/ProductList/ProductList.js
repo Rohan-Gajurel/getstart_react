@@ -27,7 +27,7 @@ let products = [
     },
     {
         pID: 4, 
-        pName:'oranges', 
+        pName:'Oranges', 
         desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit fuga autem maiores necessitatibus.',
         isAvailable: true,
         image: "images/oranges.png",
@@ -59,7 +59,7 @@ function ProductList(props){
     <div className="col-lg-8 mx-auto">
    
     <ul class="list-group shadow">
-        {/* {
+        { 
             products.map((product)=>{
                 return<Products 
                 id={product.pID} 
@@ -69,8 +69,8 @@ function ProductList(props){
                 imageUrl={product.image}
                 price={product.price}/>
             })
-        } */}
-   <Products
+        } 
+   {/* <Products
     id={products[0].pID}
     name={products[0].pName}
     description={products[0].desc}
@@ -105,7 +105,7 @@ function ProductList(props){
     isAvailable={products[4].isAvailable}
     imageUrl={products[4].image}
     price={products[4].price}
-    /> 
+    />  */}
     </ul>
     </div>
     </div>)
